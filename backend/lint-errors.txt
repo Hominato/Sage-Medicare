@@ -1,0 +1,122 @@
+
+/Users/goldensig/Desktop/hms/backend/src/appointments/appointments.service.ts
+  24:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  24:25  error  Unsafe member access .patientId on an `any` value  @typescript-eslint/no-unsafe-member-access
+  25:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  25:24  error  Unsafe member access .doctorId on an `any` value   @typescript-eslint/no-unsafe-member-access
+  26:29  error  Unsafe member access .date on an `any` value       @typescript-eslint/no-unsafe-member-access
+  53:15  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+
+/Users/goldensig/Desktop/hms/backend/src/audit/audit/audit.interceptor.ts
+  17:11  error  Unsafe assignment of an `any` value             @typescript-eslint/no-unsafe-assignment
+  18:11  error  Unsafe assignment of an `any` value             @typescript-eslint/no-unsafe-assignment
+  26:26  error  Unsafe member access .userId on an `any` value  @typescript-eslint/no-unsafe-member-access
+  28:29  error  Unsafe member access .userId on an `any` value  @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/auth/auth.controller.ts
+  23:11  error  Unsafe assignment of an `any` value               @typescript-eslint/no-unsafe-assignment
+  23:59  error  Unsafe member access .email on an `any` value     @typescript-eslint/no-unsafe-member-access
+  23:71  error  Unsafe member access .password on an `any` value  @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/auth/auth.service.ts
+   1:22  error  'UnauthorizedException' is defined but never used  @typescript-eslint/no-unused-vars
+  16:15  error  'passwordHash' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  22:3   error  Async method 'login' has no 'await' expression     @typescript-eslint/require-await
+  23:23  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  23:35  error  Unsafe member access .email on an `any` value      @typescript-eslint/no-unsafe-member-access
+  23:42  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  23:52  error  Unsafe member access .id on an `any` value         @typescript-eslint/no-unsafe-member-access
+  23:56  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  23:67  error  Unsafe member access .role on an `any` value       @typescript-eslint/no-unsafe-member-access
+  27:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  27:18  error  Unsafe member access .id on an `any` value         @typescript-eslint/no-unsafe-member-access
+  28:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  28:21  error  Unsafe member access .email on an `any` value      @typescript-eslint/no-unsafe-member-access
+  29:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  29:20  error  Unsafe member access .role on an `any` value       @typescript-eslint/no-unsafe-member-access
+  35:51  error  Unsafe member access .password on an `any` value   @typescript-eslint/no-unsafe-member-access
+  38:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  38:21  error  Unsafe member access .email on an `any` value      @typescript-eslint/no-unsafe-member-access
+  40:9   error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  40:20  error  Unsafe member access .role on an `any` value       @typescript-eslint/no-unsafe-member-access
+  48:11  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  48:27  error  Unsafe member access .firstName on an `any` value  @typescript-eslint/no-unsafe-member-access
+  49:11  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  49:26  error  Unsafe member access .lastName on an `any` value   @typescript-eslint/no-unsafe-member-access
+  50:29  error  Unsafe member access .dob on an `any` value        @typescript-eslint/no-unsafe-member-access
+  50:49  error  Unsafe member access .dob on an `any` value        @typescript-eslint/no-unsafe-member-access
+  51:11  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  51:30  error  Unsafe member access .ssn on an `any` value        @typescript-eslint/no-unsafe-member-access
+  52:11  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  52:31  error  Unsafe member access .insurance on an `any` value  @typescript-eslint/no-unsafe-member-access
+  57:13  error  'passwordHash' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/goldensig/Desktop/hms/backend/src/auth/jwt.strategy.ts
+  15:3   error  Async method 'validate' has no 'await' expression  @typescript-eslint/require-await
+  16:14  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  16:30  error  Unsafe member access .sub on an `any` value        @typescript-eslint/no-unsafe-member-access
+  16:35  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  16:50  error  Unsafe member access .email on an `any` value      @typescript-eslint/no-unsafe-member-access
+  16:57  error  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+  16:71  error  Unsafe member access .role on an `any` value       @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/auth/roles.guard.ts
+  18:11  error  Unsafe assignment of an `any` value           @typescript-eslint/no-unsafe-assignment
+  19:46  error  Unsafe member access .role on an `any` value  @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/claims/claims.service.ts
+  31:9   error  Unsafe assignment of an `any` value                       @typescript-eslint/no-unsafe-assignment
+  31:32  error  Unsafe member access .patientProfileId on an `any` value  @typescript-eslint/no-unsafe-member-access
+  32:9   error  Unsafe assignment of an `any` value                       @typescript-eslint/no-unsafe-assignment
+  32:22  error  Unsafe member access .amount on an `any` value            @typescript-eslint/no-unsafe-member-access
+  33:9   error  Unsafe assignment of an `any` value                       @typescript-eslint/no-unsafe-assignment
+  33:20  error  Unsafe member access .type on an `any` value              @typescript-eslint/no-unsafe-member-access
+  35:9   error  Unsafe assignment of an `any` value                       @typescript-eslint/no-unsafe-assignment
+  35:21  error  Unsafe member access .notes on an `any` value             @typescript-eslint/no-unsafe-member-access
+  43:15  error  Unsafe assignment of an `any` value                       @typescript-eslint/no-unsafe-assignment
+
+/Users/goldensig/Desktop/hms/backend/src/patients/patients.service.ts
+  27:9   error  Unsafe assignment of an `any` value                    @typescript-eslint/no-unsafe-assignment
+  27:21  error  Unsafe member access .email on an `any` value          @typescript-eslint/no-unsafe-member-access
+  36:9   error  Unsafe assignment of an `any` value                    @typescript-eslint/no-unsafe-assignment
+  36:25  error  Unsafe member access .firstName on an `any` value      @typescript-eslint/no-unsafe-member-access
+  37:9   error  Unsafe assignment of an `any` value                    @typescript-eslint/no-unsafe-assignment
+  37:24  error  Unsafe member access .lastName on an `any` value       @typescript-eslint/no-unsafe-member-access
+  38:36  error  Unsafe member access .dateOfBirth on an `any` value    @typescript-eslint/no-unsafe-member-access
+  39:9   error  Unsafe assignment of an `any` value                    @typescript-eslint/no-unsafe-assignment
+  39:28  error  Unsafe member access .ssn on an `any` value            @typescript-eslint/no-unsafe-member-access
+  40:9   error  Unsafe assignment of an `any` value                    @typescript-eslint/no-unsafe-assignment
+  40:29  error  Unsafe member access .insuranceInfo on an `any` value  @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/prisma/prisma.service.ts
+  18:3  error  Async method 'onModuleInit' has no 'await' expression  @typescript-eslint/require-await
+
+/Users/goldensig/Desktop/hms/backend/src/records/records.controller.ts
+  27:44  error  Unsafe member access .user on an `any` value  @typescript-eslint/no-unsafe-member-access
+  33:54  error  Unsafe member access .user on an `any` value  @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/records/records.service.ts
+  12:14  error  Unsafe member access .role on an `any` value            @typescript-eslint/no-unsafe-member-access
+  15:48  error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  15:57  error  Unsafe member access .userId on an `any` value          @typescript-eslint/no-unsafe-member-access
+  38:14  error  Unsafe member access .role on an `any` value            @typescript-eslint/no-unsafe-member-access
+  39:7   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  41:57  error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  41:66  error  Unsafe member access .userId on an `any` value          @typescript-eslint/no-unsafe-member-access
+  46:7   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  54:9   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  54:25  error  Unsafe member access .patientId on an `any` value       @typescript-eslint/no-unsafe-member-access
+  55:9   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  55:24  error  Unsafe member access .doctorId on an `any` value        @typescript-eslint/no-unsafe-member-access
+  56:9   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  56:25  error  Unsafe member access .diagnosis on an `any` value       @typescript-eslint/no-unsafe-member-access
+  57:9   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  57:30  error  Unsafe member access .notesEncrypted on an `any` value  @typescript-eslint/no-unsafe-member-access
+  58:9   error  Unsafe assignment of an `any` value                     @typescript-eslint/no-unsafe-assignment
+  58:27  error  Unsafe member access .attachments on an `any` value     @typescript-eslint/no-unsafe-member-access
+
+/Users/goldensig/Desktop/hms/backend/src/whatsapp/whatsapp.service.ts
+  7:3  error  Async method 'sendMessage' has no 'await' expression  @typescript-eslint/require-await
+
+✖ 95 problems (95 errors, 0 warnings)
+
