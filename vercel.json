@@ -1,13 +1,10 @@
 {
-  "version": 2,
+  "builds": [
+    { "src": "frontend/package.json", "use": "@vercel/static-build" },
+    { "src": "backend/api/*.js", "use": "@vercel/node" }
+  ],
   "rewrites": [
-    {
-      "source": "/api/:match*",
-      "destination": "/backend/api/:match*"
-    },
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/frontend/$1"
-    }
+    { "source": "/api/(.*)", "destination": "/backend/api/$1" },
+    { "source": "/(.*)", "destination": "/frontend/$1" }
   ]
 }
