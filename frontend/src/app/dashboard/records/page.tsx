@@ -8,7 +8,7 @@ import ClerkDashboard from '@/components/dashboards/ClerkDashboard';
 import { Loader2 } from 'lucide-react';
 
 export default function RecordsPage() {
-const { role } = useHMS() as { role: string | null };
+const { role } = useHMS() as unknown as { role: string | null };
   
   if (!role) {
     return (
